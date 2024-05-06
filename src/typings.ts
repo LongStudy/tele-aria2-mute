@@ -37,7 +37,7 @@ export interface Aria2EventCallback {
 }
 
 // https://aria2.github.io/manual/en/html/aria2c.html#notifications
-export type Aria2EventTypes = 'downloadStart' | 'downloadPause' | 'downloadStop' | 'downloadComplete' |
+export type Aria2EventTypes = 'downloadPause' | 'downloadStop' |
 'downloadError' | 'btDownloadComplete' | 'error';
 
 export interface Aria2EventCallbacks {
